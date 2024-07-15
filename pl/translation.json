@@ -11,8 +11,8 @@
             }
         },
         "sidebar": {
-            "create_new_server": "Create new server!",
-            "server_name": "Server name"
+            "create_new_server": "Stwórz nowy serwer!",
+            "server_name": "Nazwa serwera"
         }
     }
 }
