@@ -1,0 +1,18 @@
+{
+    "app": {
+        "server_header": {
+            "badges": {
+                "official_server": "Official server"
+            },
+            "actions": {
+                "create_invite": "Create invite",
+                "delete_server": "Delete server",
+                "leave_server": "Leave server"
+            }
+        },
+        "sidebar": {
+            "create_new_server": "Create new server!",
+            "server_name": "Server name"
+        }
+    }
+}

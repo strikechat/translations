@@ -1,0 +1,14 @@
+{
+    "app": {
+        "server_header": {
+            "badges": {
+                "official_server": "Oficjalny serwer"
+            },
+            "actions": {
+                "create_invite": "Stwórz zaproszenie",
+                "delete_server": "Usuń serwer",
+                "leave_server": "Opuść serwer"
+            }
+        }
+    }
+}
