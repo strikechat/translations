@@ -13,6 +13,9 @@
         "sidebar": {
             "create_new_server": "Create new server!",
             "server_name": "Server name"
+        },
+        "user_box": {
+            "open_settings": "Open settings"
         }
     }
 }
