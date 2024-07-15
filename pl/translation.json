@@ -9,6 +9,10 @@
                 "delete_server": "Usuń serwer",
                 "leave_server": "Opuść serwer"
             }
+        },
+        "sidebar": {
+            "create_new_server": "Create new server!",
+            "server_name": "Server name"
         }
     }
 }
