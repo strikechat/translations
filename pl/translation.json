@@ -16,6 +16,20 @@
         },
         "user_box": {
             "open_settings": "Otwórz ustawienia"
+        },
+        "create_invite": {
+            "invite": "Zaproszenie",
+            "description": "Skopiuj link poniżej oraz prześlij do znajomego, którego chcesz zaprosić na swój niesamowity serwer!"
+        },
+        "message": {
+            "invalid_invite": {
+                "invalid": "Nieprawidłowe zaproszenie",
+                "description": "Zaproszenie jest niepoprawne, poproś znajomego o wygenerowanie nowego linku!"
+            },
+            "invite": {
+                "join": "Dołącz",
+                "valid_until": "Ważne do:"
+            }
         }
     }
 }

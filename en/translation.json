@@ -16,6 +16,20 @@
         },
         "user_box": {
             "open_settings": "Open settings"
+        },
+        "create_invite": {
+            "invite": "Invite",
+            "description": "Copy the link below and send it to someone who would like to join your very amazing server!"
+        },
+        "message": {
+            "invalid_invite": {
+                "invalid": "Invalid invite",
+                "description": "The invite is invalid, please ask a friend to generate a new one"
+            },
+            "invite": {
+                "join": "Join",
+                "valid_until": "Expires at:"
+            }
         }
     }
 }
