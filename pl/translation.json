@@ -7,7 +7,8 @@
             "actions": {
                 "create_invite": "Stwórz zaproszenie",
                 "delete_server": "Usuń serwer",
-                "leave_server": "Opuść serwer"
+                "leave_server": "Opuść serwer",
+                "create_channel": "Stwórz kanał"
             }
         },
         "sidebar": {
@@ -30,6 +31,19 @@
                 "join": "Dołącz",
                 "valid_until": "Ważne do:"
             }
+        },
+        "create_channel": {
+            "title": "Stwórz nowy kanał",
+            "description": "Stwórz nowy kanał na swoim serwerze i stwórz nowe miejsce do rozmów",
+            "placeholder": "mój nowy kanał",
+            "success": "Kanał został pomyślnie stworzony!"
+        },
+        "edit_channel_topic": {
+            "title": "Edytuj temat kanału",
+            "description": "Temat kanału jest widoczny dla każdego pod jego nazwą.",
+            "success": "Temat kanału został pomyślnie zmieniony!",
+            "error": "Nie udało się nie udało się edytować tematu kanału!",
+            "placeholder": "Kanał o ⚡ Strike"
         }
     }
 }

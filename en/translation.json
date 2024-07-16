@@ -7,7 +7,8 @@
             "actions": {
                 "create_invite": "Create invite",
                 "delete_server": "Delete server",
-                "leave_server": "Leave server"
+                "leave_server": "Leave server",
+                "create_channel": "Create channel"
             }
         },
         "sidebar": {
@@ -30,6 +31,19 @@
                 "join": "Join",
                 "valid_until": "Expires at:"
             }
+        },
+        "create_channel": {
+            "title": "Create new channel",
+            "description": "Create new channel in your server",
+            "placeholder": "my new channel",
+            "success": "Channel created successfully!"
+        },
+        "edit_channel_topic": {
+            "title": "Edit channel topic",
+            "description": "Channel topic is visible for everyone under channel name",
+            "success": "Channel topic updated successfully!",
+            "error": "Failed to update channel topic",
+            "placeholder": "Channel about ⚡ Strike"
         }
     }
 }
