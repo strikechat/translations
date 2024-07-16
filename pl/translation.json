@@ -44,6 +44,13 @@
             "success": "Temat kanału został pomyślnie zmieniony!",
             "error": "Nie udało się nie udało się edytować tematu kanału!",
             "placeholder": "Kanał o ⚡ Strike"
+        },
+        "edit_channel_name": {
+            "title": "Edytuj nazwe kanału",
+            "description": "Nazwy kanału to podstawa uporządkowania Twojego serwera.",
+            "success": "Nazwa kanału została pomyślnie zmieniona!",
+            "error": "Nie udało się edytować nazwy kanału!",
+            "placeholder": "general"
         }
     }
 }

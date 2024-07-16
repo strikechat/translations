@@ -44,6 +44,13 @@
             "success": "Channel topic updated successfully!",
             "error": "Failed to update channel topic",
             "placeholder": "Channel about ⚡ Strike"
+        },
+        "edit_channel_name": {
+            "title": "Edit channel name",
+            "description": "Channel names are the basis for organizing your server.",
+            "success": "Channel name updated successfully!",
+            "error": "Failed to update channel name",
+            "placeholder": "general"
         }
     }
 }
