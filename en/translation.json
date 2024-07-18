@@ -8,7 +8,8 @@
                 "create_invite": "Create invite",
                 "delete_server": "Delete server",
                 "leave_server": "Leave server",
-                "create_channel": "Create channel"
+                "create_channel": "Create channel",
+                "settings": "Settings"
             }
         },
         "sidebar": {
@@ -51,6 +52,15 @@
             "success": "Channel name updated successfully!",
             "error": "Failed to update channel name",
             "placeholder": "general"
+        },
+        "user_list":{
+            "title": "Member list"
+        },
+        "delete_server":{
+            "title": "Delete server",
+            "description": "You're about to delete {{serverName}}. Are you sure you want to continue?",
+            "note": "This action is irreversible!",
+            "delete": "Delete"
         }
     }
 }

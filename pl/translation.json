@@ -8,7 +8,8 @@
                 "create_invite": "Stwórz zaproszenie",
                 "delete_server": "Usuń serwer",
                 "leave_server": "Opuść serwer",
-                "create_channel": "Stwórz kanał"
+                "create_channel": "Stwórz kanał",
+                "settings": "Ustawienia serwera"
             }
         },
         "sidebar": {
@@ -51,6 +52,25 @@
             "success": "Nazwa kanału została pomyślnie zmieniona!",
             "error": "Nie udało się edytować nazwy kanału!",
             "placeholder": "general"
+        },
+        "user_list":{
+            "title": "Lista członków",
+            "server_owner": "Właściciel serwera"
+        },
+        "delete_server":{
+            "title": "Usuń serwer",
+            "description": "Właśnie zamierzasz usunąć serwer {{serverName}}. Czy jesteś pewien, że chcesz to zrobić?",
+            "note": "Ta akcja jest nieodwracalna!",
+            "delete": "Usuń"
+        },
+        "server_settings": {
+            "title": "Ustawienia serwera",
+            "server_name": "Nazwa serwera",
+            "avatar": "Ikona serwera",
+            "owner": "Właściciel serwera",
+            "overview": "Przegląd",
+            "ranks": "Rangi",
+            "delete_server": "Usuń serwer"
         }
     }
 }
