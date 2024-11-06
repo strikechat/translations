@@ -65,7 +65,8 @@
         "server_settings": {
             "overview": "Overview",
             "ranks": "Roles",
-            "delete_server": "Delete server"
+            "delete_server": "Delete server",
+            "test": "test"
         }
     }
 }
