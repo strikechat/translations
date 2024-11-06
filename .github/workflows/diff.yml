@@ -1,0 +1,34 @@
+name: Diff on Commit
+
+on: 
+  push:
+    branches:
+      - main
+
+jobs:
+  diff_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git fetch --all
+
+    - name: Generate Diff
+      id: generate_diff
+      run: |
+        DIFF_OUTPUT=$(git diff HEAD^ HEAD)
+        echo "${DIFF_OUTPUT}" > diff.txt
+        echo "::set-output name=diff::${DIFF_OUTPUT}"
+
+    - name: Send Diff to Discord
+      if: steps.generate_diff.outputs.diff != ''
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      run: |
+        curl -H "Content-Type: application/json" -X POST \
+        -d "{\"content\": \"\`\`\`${{ steps.generate_diff.outputs.diff }}\`\`\`\"}" \
+        $DISCORD_WEBHOOK
