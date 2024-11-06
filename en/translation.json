@@ -61,6 +61,11 @@
             "description": "You're about to delete {{serverName}}. Are you sure you want to continue?",
             "note": "This action is irreversible!",
             "delete": "Delete"
+        },
+        "server_settings": {
+            "overview": "Overview",
+            "ranks": "Roles",
+            "delete_server": "Delete server"
         }
     }
 }
