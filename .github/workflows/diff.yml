@@ -20,12 +20,17 @@ jobs:
     - name: Generate Diff
       id: generate_diff
       run: |
-        DIFF_OUTPUT=$(git diff HEAD^ HEAD)
+        # Sprawdź, czy jest poprzedni commit
+        if git rev-parse HEAD^ >/dev/null 2>&1; then
+          DIFF_OUTPUT=$(git diff HEAD^ HEAD)
+        else
+          DIFF_OUTPUT="Brak poprzedniego commitu - brak różnic do wyświetlenia."
+        fi
         echo "${DIFF_OUTPUT}" > diff.txt
         echo "::set-output name=diff::${DIFF_OUTPUT}"
 
     - name: Send Diff to Discord
-      if: steps.generate_diff.outputs.diff != ''
+      if: steps.generate_diff.outputs.diff != 'Brak poprzedniego commitu - brak różnic do wyświetlenia.'
       env:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: |
